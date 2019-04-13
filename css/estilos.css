@@ -1,0 +1,85 @@
+body {
+    background-color: #3C3F41;
+}
+
+/*Navegador cabecera*/
+.navHeader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+ .navHeader li {
+     display: inline;
+}
+.navHeader li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+}
+.navHeader li a:hover:not(.activo) {
+    background-color: #ECF4F7;
+    color: black;
+}
+.activo {
+    background-color: #338DC9;
+}
+
+/*Navegador lateral*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3C3F41;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 3px;
+}
+.menu li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial;
+}
+.menu li {
+    text-align: center;
+    padding: 5px;
+}
+.menu li:last-child {
+    border-bottom: none;
+}
+.menu li a:hover {
+    background-color: #338DC9;
+    color: white;
+}
+
+/*Contenido*/
+.contenido {
+    background-color: white;
+}
+
+/*Titulos de articulos*/
+.contenido a,h5 {
+    font-family: Arial;
+    color: #334D94;
+    text-decoration: none;
+}
+.contenido img {
+    width: 764px;
+    height: 430px;
+}
+.contenido h1 {
+    border-bottom: 1px solid black;
+}
+.contenido p {
+    color: black;
+    font-family: Arial;
+}
