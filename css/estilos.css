@@ -95,7 +95,7 @@ body {
 /*Pie de pagina*/
 .footer {
     font-family: Arial;
-    color:white;
+    color: #B6D1E0;
     text-align: center;
 }
 .footer a {
@@ -132,6 +132,11 @@ body {
 }
 #fila1 {
     background-color: #338DC9;
+}
+#section2 table {
+    width: 100%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
 }
 
 /*Listas*/
