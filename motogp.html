@@ -3,53 +3,105 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="automovilismo, formula 1, nascar, dakar, f1" />
-        <title>GX Motor - Dakar</title>
+        <meta name="keywords" content="automovilismo, formula 1, nascar, dakar, f1, motogp" />
+        <link href="css/estilos.css" rel=stylesheet />
+        <link href="css/tresColumnas.css" rel=stylesheet />
+        <title>GX Motor - Moto GP</title>
     </head>
     <body>
-        <header id="header">
-            <a href="index.html"><img src="images/header.jpg" alt="GX Motor"></a>
-            <nav>
+        <header class="header" id="header">
+            <a href="index.html"><img class="imgHeader" src="images/header.jpg" alt="GX Motor"></a>
+            <nav class="navHeader">
                 <ul>
                     <li><a href="index.html">Pagina Inicial</a></li>
                     <li><a href="formula1.html">Formula 1</a></li>
                     <li><a href="nascar.html">Nascar</a></li>
                     <li><a href="dakar.html">Dakar</a></li>
-                    <li><a href="motogp.html">Moto GP</a></li>
+                    <li><a href="motogp.html" class="activo">Moto GP</a></li>
                     <li><a href="acercade.html">Acerca de</a></li>           
                 </ul>
             </nav>
         </header>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html#header">Inicio</a></li>
-                <li><a href="index.html#section1">Seccion 1</a></li>
-                <li><a href="index.html#article">Articulo</a></li>
-                <li><a href="index.html#section2">Seccion 2</a></li>
-                <li><a href="index.html#footer">Informacion</a></li>       
+                <li><a href="index.html#section1">Titulares Formula1</a></li>
+                <li><a href="index.html#section2">Titulares Nascar</a></li>
+                <li><a href="index.html#section3">Titulares Dakar</a></li>
+                <li><a href="index.html#section4">Titulares Moto GP</a></li>       
             </ul>
         </nav>
-        <section id="section1">   
-            <h1>Section 1</h1>
-            <article id="article">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/KTnv2BBqXWs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </article>
-            <aside>
-                <img src="images/motogplogo.png" alt="">
-            </aside>            
-            <aside>
-            </aside> 
-        </section>
-        <section id="section2"> 
-            <h1>Section 2</h1>
-            <p><strong>Temporada 2018</strong><br />
-            Márquez dominó la temporada 2018, a pesar de los estrechos márgenes de tiempo en el campo de MotoGP, aumentando su número de victorias en las carreras en comparación con las dos temporadas anteriores del campeonato. Comenzó el año quedándose por debajo de <em>Andrea Dovizioso</em> en la esquina final de Qatar, antes de una actuación polémica en Buenos Aires que resultó en tres penalizaciones y causó que Valentino Rossi colapsara, lo que hizo que Márquez se quedara sin el quinto lugar en Argentina. Luego de una penalización de tres posiciones por impedir que Maverick Viñales le costara la pole position a Márquez en los Estados Unidos, se recuperó para dominar la carrera por sexto año consecutivo.</p>
-            
-            <aside>
-                <img src="images/motogp.jpg" alt="">
-            </aside>
-        </section>
-        <footer id="footer">
+        <div class="contenido">
+            <section id="section1">   
+                <h1>MARC MARQUEZ GANA EL GRAN PREMIO DE ARGENTINA</h1>
+                <article id="article">
+                    <h3>Tras el triunfo en la segunda de 19 carreras que completan el campeonato, Márquez lleva la delantera en la clasificación general, escoltado por su gran rival, Dovizioso</h3>
+                    <aside id="imagen">
+                        <img src="images/motogp.jpeg">
+                    </aside>
+                    <p>El campeón del mundo Marc Márquez, de la escudería Honda, ganó fácilmente el domingo 31 de marzo de 2019 el Gran Premio de Argentina y firmó la victoria número 45 de su carrera en MotoGP. Tras salir desde la 'pole position', el piloto español y cinco veces campeón cruzó la línea de meta 10 segundos por delante de los italianos Valentino Rossi (Yamaha), segundo clasificado, y Andrea Dovizioso (Ducati), tercero. Tras el triunfo en la segunda de 19 carreras que completan el campeonato, Márquez lleva la delantera en la clasificación general, escoltado por su gran rival, Dovizioso. En pugna por el segundo lugar en el podio, los dos italianos se adelantaron mutuamente en una decena de ocasiones. Finalmente fue Rossi, de 40 años, quien tuvo la última palabra sobre el piloto de Ducati, superándolo en la última vuelta con su Yamaha para ocupar el segundo escalón del podio. La lucha por el cuarto puesto también fue animada: El australiano Jack Miller (Pramac-Ducati) pasó por delante del español de Suzuki, Alex Rins, quien clasificó quinto, y el italiano Danilo Petrucci, compañero de equipo de Dovizioso en Ducati, fue sexto. El francés Fabio Quartararo (Yamaha-SRT) acabó octavo y Johann Zarco (KTM), decimoquinto.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/65e6tnXO4YU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+            </section>
+            <section id="section2"> 
+                <h1>CAMPEONATO F1 2019</h1>  
+                <h2>Finalizado el Gran Premio numero 1000 de la Formula 1 el campeonato de pilotos queda de la siguiente manera</h2>
+                <table id="table">
+                    <caption><h4>Moto GP</h4></caption>
+                    <tr id="fila1">
+                        <th rowspan="2">Moto GP 2019</th>
+                        <th colspan="2">Puntaje</th>
+                    </tr>
+                    <tr id="fila1">
+                        <th>Equipo</th>
+                        <th>Puntos</th>
+                    </tr>
+                    <tr>
+                        <th>Andrea Dovizioso</th>
+                        <td>Ducati</td>
+                        <td>68 ptos</td>
+                    </tr>
+                    <tr>
+                        <th>Valentino Rossi</th>
+                        <td>Yamaha</td>
+                        <td>51 ptos</td>
+                    </tr>
+                    <tr>
+                        <th>Alex Rins</th>
+                        <td>Suzuki</td>
+                        <td>49 ptos</td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <th>Marc Márquez</th>
+                        <td>Honda</td>
+                        <td>45 ptos.</td>
+                    </tr>
+                    <tr>
+                        <th>Danilo Petrucci</th>
+                        <td>Ducati</td>
+                        <td>30 ptos.</td>
+                    </tr>
+                    <tr>
+                        <th>Jack Miller</th>
+                        <td>Ducati</td>
+                        <td>29 ptos.</td>
+                    </tr>
+                    <tr>
+                        <th>Takaaki Nakagami</th>
+                        <td>Honda</td>
+                        <td>22 ptos.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3">Muchas tardes y buenas gracias - GX MOTOR</td>
+                    </tr>
+                </table>
+                <br />
+            </section>
+        </div>
+        <aside id="publicidad"><img src="images/publicidad.png"></aside>
+        <footer class="footer">
             <p>Stalin Santiago Figueroa Sacoto - Universidad Politecnica Salesiana</p>
             <p>Telefono: <a href="tel:+593967515856">0967515856</a></p>
             <p>Email: <a href="mailto:sfigueroas1@est.ups.edu.ec">sfigueroas1@est.ups.edu.ec</a></p>

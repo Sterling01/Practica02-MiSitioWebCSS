@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="automovilismo, formula 1, nascar, dakar, f1" />
+        <meta name="keywords" content="automovilismo, formula 1, nascar, dakar, f1, motogp" />
+        <link href="css/estilos.css" rel=stylesheet />
+        <link href="css/tresColumnas.css" rel=stylesheet />
         <title>GX Motor - Formula 1</title>
     </head>
     <body>
-        <header id="header">
-            <a href="index.html"><img src="images/header.jpg" alt="GX Motor"></a>
-            <nav>
+        <header class="header" id="header">
+            <a href="index.html"><img class="imgHeader" src="images/header.jpg" alt="GX Motor"></a>
+            <nav class="navHeader">
                 <ul>
                     <li><a href="index.html">Pagina Inicial</a></li>
-                    <li><a href="formula1.html">Formula 1</a></li>
+                    <li><a href="formula1.html" class="activo">Formula 1</a></li>
                     <li><a href="nascar.html">Nascar</a></li>
                     <li><a href="dakar.html">Dakar</a></li>
                     <li><a href="motogp.html">Moto GP</a></li>
@@ -20,59 +22,85 @@
                 </ul>
             </nav>
         </header>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html#header">Inicio</a></li>
-                <li><a href="index.html#section1">Seccion 1</a></li>
-                <li><a href="index.html#article">Articulo</a></li>
-                <li><a href="index.html#section2">Seccion 2</a></li>
-                <li><a href="index.html#footer">Informacion</a></li>       
+                <li><a href="index.html#section1">Titulares Formula1</a></li>
+                <li><a href="index.html#section2">Titulares Nascar</a></li>
+                <li><a href="index.html#section3">Titulares Dakar</a></li>
+                <li><a href="index.html#section4">Titulares Moto GP</a></li>       
             </ul>
         </nav>
-        <section id="section1">   
-            <h1>Section 1</h1>
-            <article id="article">
-                <table>
-                    <caption>Titulo de tabla</caption>
-                    <tr>
-                        <th rowspan="2">Tabla Avanzada</th>
-                        <th colspan="2">Cabecera Multiples Columnas</th>
+        <div class="contenido">
+            <section id="section1">   
+                <h1>ACCIDENTE DE ALEX ALBON SUSPENDE LA PRACTICA LIBRE 3</h1>
+                <article id="article">
+                    <h3>La clasificación del GP de China de Fórmula 1 ha contado con un piloto menos entre los participantes, debido al fuerte accidente que ha tenido Alex Albon en los terceros libres. El piloto tailandés estrelló su Toro Rosso al final de la última sesión previa a la que determina la pole, destrozando su monoplaza y dejando el chasis inservible.</h3>
+                    <aside id="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9eTjz7ILK3M" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </aside>
+                    <p>En la última sesión de práctica libre antes de clasificarse para el Gran Premio de China, Valtteri Bottas de Mercedes encabezó el Ferrari de Sebastian Vettel, pero la sesión fue interrumpida por un gran choque para Alexander Albon de Toro Rosso, quien puso su STR14 fuertemente en la pared. Bottas disfrutaba de un margen saludable de alrededor de cuatro décimas de segundo sobre los dos Ferraris de Vettel y Charles Leclerc con cinco minutos de Práctica libre 3 restantes cuando Albon corrió de par en par en la esquina final. El piloto tailandés, Toro Rosso, se tambaleó en el astro de césped antes de que lo enviaran a toda velocidad a la barrera de la pista cercana. Albon pronto salió del auto y caminaba por ahí, pero el STR14 parecía una posibilidad muy remota para ser reconstruido a tiempo para la clasificación. Eso es una pena, ya que tanto él como su compañero de equipo Daniil Kvyat habían mostrado un gran ritmo, terminando la sesión en noveno y décimo respectivamente. Detrás de Bottas y los dos Ferraris, Lewis Hamilton no logró completar una buena vuelta para terminar cuarto, mientras que Nico Hulkenberg fue una vez más impresionante para Renault en la P5, ya que estaba en el FP2, por delante del igualmente impresionante Kimi Raikkonen, sexto para Alfa Romeo.Max Verstappen esperará un mejor desempeño en la calificación de lo que vimos en el FP3, terminando con P7 y 1.6s fuera del ritmo, aunque estuvo cómodamente alejado de Pierre Gasly, quien terminó en el puesto 15, aunque el francés no se dignó usar Los neumáticos blandos, mientras que el ex compañero del equipo Toro Rosso de Verstappen, Carlos Sainz, fue octavo para McLaren. Bajando el orden, Haas se encontró una vez más al final de las cosas, aunque el escuadrón estadounidense no pudo revelar su ritmo con los neumáticos blandos debido al choque de Albon, por lo que puede haber más en el casillero para Romain Grosjean, quien terminó P17, y Kevin Magnussen, quien fue P18, en la calificación. Terminaron por delante de los dos autos Williams de George Russell y Robert Kubica, el equipo se reforzó en el garaje con la presencia del regresivo Patrick Head, el legendario ingeniero de Williams que ahora actúa como asesor del equipo.</p>
+                </article>
+            </section>
+            <section id="section2"> 
+                <h1>CAMPEONATO F1 2019</h1>  
+                <h2>Finalizado el Gran Premio numero 1000 de la Formula 1 el campeonato de pilotos queda de la siguiente manera</h2>
+                <table id="table">
+                    <caption><h4>Formula 1</h4></caption>
+                    <tr id="fila1">
+                        <th rowspan="2">F1 2019</th>
+                        <th colspan="2">Puntaje</th>
+                    </tr>
+                    <tr id="fila1">
+                        <th>Equipo</th>
+                        <th>Puntos</th>
                     </tr>
                     <tr>
-                        <th>Primera Col. Cab.</th>
-                        <th>Segunda Col. Cab.</th>
+                        <th>L. Hamilton</th>
+                        <td>Mercedes</td>
+                        <td>68 ptos</td>
                     </tr>
                     <tr>
-                        <th>Fila 1</th>
-                        <td>Fila 1 Columna 1</td>
-                        <td>Fila 1 Columna 2</td>
+                        <th>V. Bottas</th>
+                        <td>Mercedes</td>
+                        <td>62 ptos</td>
                     </tr>
                     <tr>
-                        <th>Fila 2</th>
-                        <td>Fila 2 Columna 1</td>
-                        <td>Fila 2 Columna 2</td>
+                        <th>M. Verstappen</th>
+                        <td>Red Bull</td>
+                        <td>39 ptos</td>
                     </tr>
                     <tr>
-                        <td colspan="3">Pie de tabla.</td>
+                    <tr>
+                        <th>S. Vettel</th>
+                        <td>Ferrari</td>
+                        <td>37 ptos.</td>
+                    </tr>
+                    <tr>
+                        <th>C. Leclers</th>
+                        <td>Ferrari</td>
+                        <td>36 ptos.</td>
+                    </tr>
+                    <tr>
+                        <th>P. Gasly</th>
+                        <td>Red Bull</td>
+                        <td>13 ptos.</td>
+                    </tr>
+                    <tr>
+                        <th>K. Räikkönen</th>
+                        <td>Alfa Romeo</td>
+                        <td>12 ptos.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3">Muchas tardes y buenas gracias - GX MOTOR</td>
                     </tr>
                 </table>
-            </article>
-            <aside>
-                <img src="images/f1logo.jpg" alt="">
-            </aside>            
-            <aside>
-                <img src="images/bahrein.jpg" alt="">
-            </aside> 
-        </section>
-        <section id="section2"> 
-            <h1>Section 2</h1>  
-            <p>Un cuarto y un quinto puesto es el bagaje de <strong>Sebastian Vettel</strong> en lo que va disputado de Mundial 2019. A pesar de salir tercero en Australia, el alemán no fue capaz de mantener su puesto de podio, lo perdió en favor de Verstappen. En el trazado de Albert Park, Ferrari no fue capaz de mantener el dominio que había demostrado en los test de Montmeló. En Bahréin la cosa fue aún peor para 'Seb', en este caso sí que mandó el coche de Maranello, pero con Leclerc al volante. El monegasco logró la pole en <em>Sakhir</em> y, a pesar de una mala salida, no tardó mucho en colocarse al frente de la carrera.<br />
-            Finalmente, un cortocircuito en su SF90 le privó de conseguir la primera victoria de su carrera, pero Vettel no pudo ni intentarlo y terminó quinto.</p>
-            <aside>
-                <img src="images/leclerc.jpg" alt="">
-            </aside>
-        </section>
-        <footer id="footer">
+                <br />
+            </section>
+        </div>
+        <aside id="publicidad"><img src="images/publicidad.png"></aside>
+        <footer class="footer">
             <p>Stalin Santiago Figueroa Sacoto - Universidad Politecnica Salesiana</p>
             <p>Telefono: <a href="tel:+593967515856">0967515856</a></p>
             <p>Email: <a href="mailto:sfigueroas1@est.ups.edu.ec">sfigueroas1@est.ups.edu.ec</a></p>
