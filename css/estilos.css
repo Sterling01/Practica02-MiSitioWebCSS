@@ -67,9 +67,17 @@ body {
 }
 
 /*Titulos de articulos*/
-.contenido a,h5 {
+.contenido a,h5,h1 {
     font-family: Arial;
     color: #334D94;
+    text-decoration: none;
+}
+.contenido h2 {
+    font-family: Arial;
+    text-decoration: none;
+}
+.contenido h3 {
+    font-family: Arial;
     text-decoration: none;
 }
 .contenido img {
@@ -80,6 +88,55 @@ body {
     border-bottom: 1px solid black;
 }
 .contenido p {
+    color: black;
+    font-family: Arial;
+}
+
+/*Pie de pagina*/
+.footer {
+    font-family: Arial;
+    color:white;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Videos*/
+#video {
+    float: left;
+}
+
+/*Imagen*/
+#imagen {
+    float: left;
+}
+#imagen img {
+    width: 420px;
+    height: 220px;
+}
+
+/*Tabla*/
+#table{
+    width: 100%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+#table td,th {
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+#table tr:hover {
+    background-color: #ddd;
+}
+#fila1 {
+    background-color: #338DC9;
+}
+
+/*Listas*/
+#section2 ol{
+    text-decoration: none;
     color: black;
     font-family: Arial;
 }
