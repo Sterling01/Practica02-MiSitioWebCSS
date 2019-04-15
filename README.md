@@ -10,6 +10,7 @@ En la cabecera se tiene una imagen la cual es el logo y también se tiene una ba
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/3.png) 
 
 El diseño hecho en CSS tiene el tamaño requerido de la imagen con su ancho y largo. Luego la barra de navegación tiene un margen superior para separarlo de la imagen.
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/4.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/5.png)
 
 El diseño de la barra de navegacion se encuentra en una lista que se le aplica un borde superior e inferior, tiene un tipo de fuente Arial, el color del menu cambia al pasar sobre y cuando se encuentra en la pagina de ese menu.
@@ -27,9 +28,11 @@ En CSS tiene un margen superior para separarlo de la cabecera, con float left se
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/11.png) 
 
 Este menu lateral tiene bordes redondeados, un espacio entre cada item de 5 pixeles, y tambien el cambio de color al pasar sobre uno de los items. El texto alieneado al centro y tipo de fuente Arial.
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/12.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/13.png)  
 
-El aspecto que tiene este menú lateral
+El aspecto que tiene este menú lateral.
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/14.png)
 
 El contenido que se encuentra en la segunda columna sigue a continuación de la barra lateral y se encuentra en un div.
@@ -48,6 +51,7 @@ El pie de página con la información del estudiante que se encuentra al final d
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/20.png)
 
 Con los atributos aplicados en CSS este pie de pagina se encuentra al fondo de esta y centrado.
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/21.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/22.png)    
 
 Apariencia del pie de pagina con la informacion.
@@ -58,52 +62,98 @@ En este diseño se tiene la cabecera con el menú para navegar entre todas las p
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/24.png)
 
 En CSS el diseño a tres columnas
+
 La cabecera
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/25.png)
+
 El menú lateral
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/26.png) 
+
 El contenido
-![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/27.png) 
+
+![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/27.png)
+
 Publicidad
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/28.png) 
+
 El footer
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/29.png) 
+
 4. Diferentes reglas CSS
+
 Color de fondo de la pagina
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/30.png) 
+
 Títulos de artículos o personalización de fuentes
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/31.png) 
+
 Tamaños de imágenes
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/32.png) 
+
 Alineación y posicionamiento de las imágenes
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/33.png) 
+
 Diseños de las tablas
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/34.png)
+
 Diseño de las listas
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/35.png) 
+
 5. Creación del formulario
+
 En el formulario se puede ingresar el nombre, correo y un mensaje.
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/36.png) 
+
 Se cambio el tipo de letra con CSS
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/37.png) 
+
 6. Validación de HTML y CSS
+
 Index.html
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/38.png) 
+
 Formula1.html
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/39.png) 
+
 Nascar.html
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/40.png) 
+
 Dakar.html
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/41.png) 
+
 Motogp.html
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/42.png) 
+
 Acercade.html
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/43.png) 
+
 Estilos.css
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/44.png) 
+
 DosColumnas.css
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/45.png) 
+
 TresColumnas.css
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/46.png) 
 
 <strong>RESULTADO(S) OBTENIDO(S): El aplicar correctamente CSS al trabajo realizado hace que se pueda diseñar la pagina al gusto de quien lo realiza y que todo lo que se hace tenga sentido.
@@ -113,4 +163,3 @@ CONCLUSIONES: Es mejor realizar en un documento aparte el contenido CSS. Clasifi
 Información de GitHub
 Usuario: Sterling01
 URL MiSitioWebCSS: https://github.com/Sterling01/Practica02-MiSitioWebCSS.git</strong> 
-
