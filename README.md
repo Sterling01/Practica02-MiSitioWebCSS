@@ -64,6 +64,7 @@ En este diseño se tiene la cabecera con el menú para navegar entre todas las p
 En CSS el diseño a tres columnas
 
 La cabecera
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/25.png)
 
 El menú lateral
