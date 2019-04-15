@@ -1,8 +1,9 @@
-/*Imagen de la cabecera*/
 body {
     margin: 0;
     padding: 0;
 }
+
+/*Imagen de la cabecera*/
 .imgHeader {
     width: 100%;
     height: 200px;

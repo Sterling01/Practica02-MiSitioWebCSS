@@ -1,5 +1,5 @@
 body {
-    background-color: #3C3F41;
+    background-color: #313335;
 }
 
 /*Navegador cabecera*/
@@ -130,7 +130,7 @@ body {
 #table tr:hover {
     background-color: #ddd;
 }
-#fila1 {
+.fila1 {
     background-color: #338DC9;
 }
 #section2 table {

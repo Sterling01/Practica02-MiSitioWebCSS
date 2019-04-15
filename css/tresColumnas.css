@@ -42,7 +42,7 @@ body {
 }
 #publicidad img {
     width: 240px;
-    height: 551;
+    height: 100%;
 }
 /*Pie de pagina*/
 .footer {
