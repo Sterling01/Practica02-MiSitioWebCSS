@@ -23,6 +23,7 @@ La barra de navegación lateral como primera columna que cuenta con cinco ítems
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/10.png) 
 
 En CSS tiene un margen superior para separarlo de la cabecera, con float left se lo alinea a la izquierda, tiene un ancho del 19% de la pagina y esta fijo en esa posición.
+
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/11.png) 
 
 Este menu lateral tiene bordes redondeados, un espacio entre cada item de 5 pixeles, y tambien el cambio de color al pasar sobre uno de los items. El texto alieneado al centro y tipo de fuente Arial.
