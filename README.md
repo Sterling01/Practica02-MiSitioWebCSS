@@ -7,18 +7,22 @@ En esta pagina realizada a dos columnas se tiene una cabecera con una barra de n
 En la cabecera se tiene una imagen la cual es el logo y también se tiene una barra de navegación entre páginas.
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/3.png) 
 El diseño hecho en CSS tiene el tamaño requerido de la imagen con su ancho y largo. Luego la barra de navegación tiene un margen superior para separarlo de la imagen.
-![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/4.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/5.png)        
+![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/4.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/5.png)
+
 El diseño de la barra de navegacion se encuentra en una lista que se le aplica un borde superior e inferior, tiene un tipo de fuente Arial, el color del menu cambia al pasar sobre y cuando se encuentra en la pagina de ese menu.
-![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/6.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/7.png)    
+![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/6.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/7.png) 
+
 El diseño final con las caracteristicas anteriores, el item del menu cambia de color debido a que nos encontramos en la pagina inicial. Y tambien cambia el color cuando se pasa el puntero sobre un item
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/8.png) 
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/9.png)
+
 La barra de navegación lateral como primera columna que cuenta con cinco ítems. Y que tienen enlaces a otras páginas
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/10.png) 
 En CSS tiene un margen superior para separarlo de la cabecera, con float left se lo alinea a la izquierda, tiene un ancho del 19% de la pagina y esta fijo en esa posición.
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/11.png) 
 Este menu lateral tiene bordes redondeados, un espacio entre cada item de 5 pixeles, y tambien el cambio de color al pasar sobre uno de los items. El texto alieneado al centro y tipo de fuente Arial.
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/12.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/13.png)  
+
 El aspecto que tiene este menú lateral
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/14.png)
 El contenido que se encuentra en la segunda columna sigue a continuación de la barra lateral y se encuentra en un div.
@@ -34,6 +38,7 @@ El pie de página con la información del estudiante que se encuentra al final d
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/20.png)
 Con los atributos aplicados en CSS este pie de pagina se encuentra al fondo de esta y centrado.
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/21.png) ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/22.png)    
+
 Apariencia del pie de pagina con la informacion.
 ![alt text](https://github.com/Sterling01/Practica02-MiSitioWebCSS/blob/master/informe/23.png) 
 3. Diseño a tres columnas.
