@@ -162,5 +162,7 @@ TresColumnas.css
 CONCLUSIONES: Es mejor realizar en un documento aparte el contenido CSS. Clasificar las etiquetas por id o selectores de clase hace que sea fácil identificarlos y personalizarlos con CSS. La estructura de HTML debe estar en orden para que el aplicar CSS sea de manera satisfactoria.
 
 Información de GitHub
+
 Usuario: Sterling01
+
 URL MiSitioWebCSS: https://github.com/Sterling01/Practica02-MiSitioWebCSS.git</strong> 
